@@ -215,7 +215,7 @@ def se_inception_v4(nb_classes = 1001, load_weights = True):
     # Output layer
     output = Dense(units = nb_classes, activation = "softmax")(x) # Output: 1000
 
-    model = Model(init, output, name = "SE_Inception_v4")   
+    model = Model(init, output, name = "SE-Inception-v4")   
         
     return model
 
